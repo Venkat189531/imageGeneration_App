@@ -1,0 +1,42 @@
+//install package.json
+npm init -y
+//run
+node .\index.js
+//install express
+npm i express
+
+//install nodemon
+npm i -D nodemon
+
+//change in package.json /scripts
+"start": "node index",
+"dev":"nodemon index"
+to use shortcuts to run
+
+//install together-api
+npm i together-ai
+
+// together api save in .env file
+//to run .env file install
+npm i dotenv
+
+//install supabase 
+npm i @supabase/supabase-js
+
+//creat new project in subabase and after add key and url 
+// after go to storage and click on new bucket and creat new one public
+//after go to policy and click new policy and select for full customization
+//enter policy and select 
+//select insert update
+//role-->anon
+//click on review and policy
+
+discover screen , we wan to show all the images=> we are going to store in the db
+
+install mongoose
+npm i mongoose
+// create .gitignore file -->node_madule
+run
+git init
+git add.
+git commit -m 'project completed'
